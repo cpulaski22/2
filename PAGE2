@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coltivare - Management Team</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            font-family: Georgia, serif;
+            color: #006400; /* Dark green */
+        }
+        .team-member {
+            margin-bottom: 40px;
+        }
+        .team-member img {
+            width: 150px;
+            float: left;
+            margin-right: 20px;
+        }
+        .team-member h3 {
+            font-size: 18px;
+            color: #8B4513; /* Saddle brown */
+        }
+        .team-member h4 {
+            font-size: 16px;
+            font-style: italic;
+            color: #000000;
+        }
+        .team-member p {
+            font-size: 14px;
+            color: #000000;
+        }
+        .quote {
+            font-family: 'Courier New', monospace;
+            font-size: 20px;
+            color: #0000FF;
+        }
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Coltivare</h1>
+        <nav>
+            <!-- Navigation links to be added by the team -->
+        </nav>
+    </header>
+    <main>
+        <section id="management-team">
+            <h2>Our Management Team</h2>
+            <!-- Banner image -->
+            <img src="https://images.unsplash.com/photo-1500595046743-cd271d694e30?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Coltivare farm landscape" style="width:100%; max-width:600px; margin:20px 0;">
+            <!-- Team members -->
+            <div class="team-member">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="James Smith">
+                <h3>James Smith</h3>
+                <h4>Founder and CEO</h4>
+                <p>James grew up on his family's farm in Iowa and has a deep-rooted passion for agriculture. After earning a degree in agricultural engineering from <a href="https://www.purdue.edu/" target="_blank">Purdue University</a>, he <u>founded Coltivare</u> to innovate farming practices. His vision has transformed Coltivare into a leader in sustainable agriculture.</p>
+                <p class="quote">"Agriculture is the backbone of our world, and innovation is its future." - James Smith</p>
+                <ul>
+                    <li>Oversees company strategy</li>
+                    <li>Drives business expansion</li>
+                    <li>Speaks at industry conferences</li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="team-member">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Sofia Carter">
+                <h3>Sofia Carter</h3>
+                <h4>CFO</h4>
+                <p>Sofia brings <u>over 15 years of experience</u> in financial management, specializing in agribusiness. With an MBA from Stanford University, she ensures Coltivare's financial stability and growth. Her strategic insights have been key to the company's success.</p>
+                <ul>
+                    <li>Handles financial planning</li>
+                    <li>Manages budgeting</li>
+                    <li>Secures funding opportunities</li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="team-member">
+                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Rahul Patel">
+                <h3>Rahul Patel</h3>
+                <h4>COO</h4>
+                <p>Rahul excels in <u>operations and logistics</u>, ensuring Coltivare delivers products efficiently. With a background in supply chain management, he has streamlined processes to enhance customer satisfaction and sustainability.</p>
+                <ul>
+                    <li>Supervises production</li>
+                    <li>Optimizes logistics</li>
+                    <li>Promotes eco-friendly operations</li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="team-member">
+                <img src="https://images.unsplash.com/photo-1517363898874-95d5e7b70970?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Lila Johnson">
+                <h3>Lila Johnson</h3>
+                <h4>CMO</h4>
+                <p>Lila is a <u>marketing expert</u> who connects Coltivare with farmers worldwide. Her creative campaigns have boosted brand recognition. She believes in storytelling to highlight Coltivare's mission.</p>
+                <ul>
+                    <li>Crafts marketing campaigns</li>
+                    <li>Manages social media</li>
+                    <li>Builds customer relationships</li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="team-member">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Dr. Ethan Brooks">
+                <h3>Dr. Ethan Brooks</h3>
+                <h4>Chief Scientist</h4>
+                <p>Dr. Brooks is a <u>leading agronomist</u> with a PhD from Cornell University. He heads Coltivare's R&D, developing technologies for sustainable farming. His research shapes the future of agriculture.</p>
+                <ul>
+                    <li>Leads technology development</li>
+                    <li>Conducts field research</li>
+                    <li>Publishes scientific papers</li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </section>
+        <section id="priorities">
+            <h2>Our Priorities</h2>
+            <ol>
+                <li>Advancing farming technology</li>
+                <li>Promoting sustainability</li>
+                <li>Ensuring customer success</li>
+                <li>Supporting rural communities</li>
+            </ol>
+        </section>
+        <p>Learn more about our team in our latest <a href="press_release.pdf" download>press release</a>.</p>
+        <p>Our team upholds industry excellence. Visit <a href="https://www.agriculture.com/" target="_blank">Agriculture.com</a> for more.</p>
+        <p><a href="mailto:pulaskic@purdue.edu">Contact me</a> with any questions or feedback: pulaskic@purdue.edu</p>
+
+    </main>
+    <footer>
+        <p>Last modified: <script>document.write(document.lastModified);</script></p>
+    </footer>
+</body>
+</html>
